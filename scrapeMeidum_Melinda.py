@@ -29,7 +29,7 @@ with open("websitesUrlMelinda") as file:
               #  articleFiltered=re.sub("[ ,.-;:/\"]", " ", articleFiltered)
                 #Convert words to lower case and split them into sperate words.
                 articleFiltered = articleFiltered.lower().split()
-                with open("raw_melinda/article"+str(articleCounter), 'w+') as f:
+                with open("raw_random_articles/article"+str(articleCounter)+"_melinda", 'w+') as f:
                     for item in articleFiltered:
                         f.write("%s " %item)
                 articleCounter+=1
