@@ -19,3 +19,14 @@ All programs that are starting with __scrape__ are there to use the websitesURL 
 __build_dataset.py__ : To take the files of the __raw folders__ and split them into __test__ , __train__ and __valid__ folder.
 
 __classifier_ml.py__ : A classifier which uses ML / NLP techniques.
+
+
+
+
+
+###First optimization (26 October 2018) #####
+
+-Added the folder "add_more_test_data" with some additional scraper programs in order to generate even more train/test data.
+-Edited the classifier.py class : - new word for stop_word list called "link" . 
+
+You can find a detailed change log here : https://medium.com/@julianhatzky/gatesdect-part-2-optimizing-nlp-d7f13e9e0e18
